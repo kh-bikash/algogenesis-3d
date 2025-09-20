@@ -1,0 +1,10 @@
+/* In: src/index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.line-highlight {
+  background-color: rgba(96, 165, 250, 0.2);
+  z-index: 2;
+}
