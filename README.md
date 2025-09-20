@@ -1,24 +1,5 @@
 # AlgoGenesis-3D ✨
 
-<div align="center">
-  <img src="https://img.shields.io/badge/AlgoGenesis-3D-ff69b4?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Project Title Badge"/>
-  <br/>
-  <a href="https://github.com/kh-bikash/algogenesis-3d/stargazers">
-    <img src="https://img.shields.io/github/stars/kh-bikash/algogenesis-3d?style=social" alt="GitHub stars"/>
-  </a>
-  <a href="https://github.com/kh-bikash/algogenesis-3d/network/members">
-    <img src="https://img.shields.io/github/forks/kh-bikash/algogenesis-3d?style=social" alt="GitHub forks"/>
-  </a>
-  <a href="https://github.com/kh-bikash/algogenesis-3d/issues">
-    <img src="https://img.shields.io/github/issues/kh-bikash/algogenesis-3d?style=flat-square&color=A333C8" alt="GitHub issues"/>
-  </a>
-  <a href="https://github.com/kh-bikash/algogenesis-3d/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/kh-bikash/algogenesis-3d?style=flat-square&color=blue" alt="License"/>
-  </a>
-</div>
-
----
-
 ## 🚀 Ignite Your Algorithms: Real-time 3D Visualization & AI Explanations
 
 AlgoGenesis-3D is a cutting-edge platform designed to **demystify complex algorithms** by transforming them into **interactive, visually stunning 3D animations**. Select problems from popular coding platforms, write your code, and watch every step of its execution unfold dynamically. Coupled with intelligent **AI explanations**, this is the ultimate tool for understanding, debugging, and mastering algorithms.
@@ -65,6 +46,7 @@ AlgoGenesis-3D is a cutting-edge platform designed to **demystify complex algori
 Follow these instructions to get a copy of the project up and running on your local machine.
 
 ### Prerequisites
+
 - **Node.js**: Version 18.x or higher ([Download here](https://nodejs.org/))
 - **MongoDB**: A running instance, either locally or a cloud URI from [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
 - **Groq API Key**: Obtain one from the [Groq Cloud Console](https://console.groq.com/keys)
@@ -83,7 +65,7 @@ Follow these instructions to get a copy of the project up and running on your lo
       cd backend
       ```
     - Create a `.env` file and populate it with your keys:
-      ```
+      ```env
       MONGO_URI=your_mongodb_connection_string
       GROQ_API_KEY=your_groq_api_key
       PORT=5000
@@ -96,7 +78,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 3.  **Configure Frontend Environment**
     - Navigate to the frontend directory from the project root:
       ```bash
-      cd frontend
+      cd ../frontend 
       ```
     - Install frontend dependencies:
       ```bash
@@ -142,6 +124,8 @@ This project was a fantastic journey through modern web technologies. Key learni
 ## 🤝 Contributing
 
 Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**. Please feel free to open an issue or submit a pull request.
+
+---
 
 ## 📜 License
 
